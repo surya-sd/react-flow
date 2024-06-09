@@ -1,0 +1,41 @@
+.dndflow {
+  display: flex;
+  height: 100vh;
+}
+
+.reactflow-wrapper {
+  height: 100%;
+  width: 100%;
+  flex: 1;
+}
+
+.settings-panel {
+  position: absolute;
+  right: 13rem;
+  top: 4.5rem;
+  background: #d5d9ff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dndnode {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background: white;
+  cursor: move;
+}
+
+.text-node {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+}
+
+.save-button {
+  position: absolute;
+  right: 0.5rem;
+}
